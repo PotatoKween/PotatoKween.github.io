@@ -10,10 +10,9 @@
             margin: 0;
             padding: 0;
             background-color: #ecdfc5;
-            background-image: url("interactive.png");
-            background-size: cover;
         }
 
+        /*
         ul {
             list-style-type: none;
             margin: 0;
@@ -22,10 +21,11 @@
             padding: 50px;
             justify-content: right;
             /*align-items: flex-end;
-            height: 160px;*/
+            height: 160px;
+            }*/
 
-        }
-
+        
+        /*
         ul li a {
           display: block;
           color: white;
@@ -49,6 +49,8 @@
             left: 0;
             top: 15px;
         }
+            */
+        
 </style>
 </head>
 
@@ -67,14 +69,20 @@
 </div>
 -->
 
-<img src="interactive.png" width="1920" height="1080" alt="homepage background";
+<img id="homepage" src="interactive.png" alt="homepage-background" usemap="#workmap">
+
+<map name="workmap">
+     <area shape="rect" coords="84,34,237,147" alt="Home" href="index.html">
+     <area shape="circle" coords="390,102,51" alt="Refresh" href="index.html">
+     <area shape="rect" coords="2,311,448,387" alt="Home Tab" href="index.html">
+     <area shape="rect" coords="68,880,758,980" alt="More about the Author" href="">
+     <area shape="rect" coords="490,312,936,390" alt="Favorite Games" href="favorite games.html">
+     <area shape="rect" coords="975,313,1424,388" alt="Music Tab" href="favorite music.html">
+     <area shape="rect" coords="1465,312,1910,388" alt="Food Tab" href="favorite food.html">
+</map> 
+
     
 </body>
 
 
 </html>
-
-
-
-
-
